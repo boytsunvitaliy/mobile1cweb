@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation_main"
+            app:startDestination="@id/mainView">
+
+    <action android:id="@+id/toLoginView"
+            app:destination="@id/loginView"
+            app:popUpToInclusive="true"/>
+
+    <fragment android:id="@+id/mainView"
+              android:name="ru.boytsunvitaliy.mobile1cweb.views.MainView"
+              android:label="main_view"
+              tools:layout="@layout/main_view">
+    </fragment>
+
+    <fragment android:id="@+id/loginView"
+              android:name="ru.boytsunvitaliy.mobile1cweb.views.LoginView"
+              android:label="login_view"
+              tools:layout="@layout/login_view"/>
+</navigation>

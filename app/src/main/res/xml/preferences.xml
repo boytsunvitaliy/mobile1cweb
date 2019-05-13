@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/title_settings">
+
+        <ru.boytsunvitaliy.mobile1cweb.preferences.VersionPreference/>
+
+        <EditTextPreference
+                app:key="@string/key_service_url"
+                app:title="@string/text_address_server"
+                app:useSimpleSummaryProvider="true"
+                app:dialogTitle="@string/text_address_server"
+                android:defaultValue="@string/value_address_default"/>
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

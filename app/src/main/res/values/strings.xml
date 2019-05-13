@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">1C web</string>
+    <string name="title_version">Версия ПО</string>
+    <string name="question_exit_app">Выйти из приложения?</string>
+    <string name="title_message">Сообщение</string>
+    <string name="title_error">Ошибка</string>
+    <string name="text_add_card">Приложите карту</string>
+    <string name="invalid_credentials">Ошибка</string>
+    <string name="text_set_code">Считать код</string>
+    <string name="text_input_code">Код карты</string>
+
+    <string name="title_settings">Настройки</string>
+
+    <string name="text_server">Сервер</string>
+    <string name="text_address_server">Адрес сервера</string>
+    <string name="value_address_default">http://www.iqsklad.ru</string>
+    <string name="key_service_url">serviceUrl</string>
+
+    <string name="title_load">Загрузить</string>
+
+</resources>
